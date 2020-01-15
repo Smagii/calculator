@@ -10,10 +10,18 @@ public class CalculatorApplication {
         System.out.println("It works!");
     }
 
+    public int addNumbers(int a,int b){
+        return a+b;
+    }
+    public int subtractNumbers(int a,int b){
+        return a-b;
+    }
     public static void main(String[] args) {
 
         CalculatorApplication calculator =new CalculatorApplication();
-        calculator.someMethod();
+
+        System.out.println("Sum is: "+calculator.addNumbers(5,5));
+        System.out.println("Subtract is: "+calculator.subtractNumbers(10,4));
 
     }
 
