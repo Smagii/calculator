@@ -6,8 +6,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class CalculatorApplication {
 
+    public void someMethod(){
+        System.out.println("It works!");
+    }
+
     public static void main(String[] args) {
-        SpringApplication.run(CalculatorApplication.class, args);
+
+        CalculatorApplication calculator =new CalculatorApplication();
+        calculator.someMethod();
+
     }
 
 }
