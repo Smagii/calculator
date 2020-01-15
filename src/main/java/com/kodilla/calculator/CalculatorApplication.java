@@ -21,7 +21,7 @@ public class CalculatorApplication {
         CalculatorApplication calculator =new CalculatorApplication();
 
         System.out.println("Sum is: "+calculator.addNumbers(5,5));
-        System.out.println("Subtract is: "+calculator.subtractNumbers(10,4));
+        System.out.println("Subtract is: "+calculator.subtractNumbers(6,4));
 
     }
 
